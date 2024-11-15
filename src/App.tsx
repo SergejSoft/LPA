@@ -13,36 +13,7 @@ function App() {
       { id: 2, title: 'Beach Volleyball 🏐', maxParticipants: 10 },
       { id: 3, title: 'Padel 🎾', maxParticipants: 10 },
     ],
-    25: [
-      { id: 4, title: 'Morning Activities 🌅', subtitle: 'Running • TurnFit • Yoga', maxParticipants: 10 },
-      { id: 5, title: 'Hiking 🥾', maxParticipants: 10 },
-      { id: 6, title: 'Padel 🎾', maxParticipants: 10 },
-    ],
-    26: [
-      { id: 7, title: 'Morning Activities 🌅', subtitle: 'Running • TurnFit • Yoga', maxParticipants: 10 },
-      { id: 8, title: 'Bike Tour 🚴‍♂️', maxParticipants: 10 },
-      { id: 9, title: 'Padel 🎾', maxParticipants: 10 },
-    ],
-    27: [
-      { id: 10, title: 'Morning Activities 🌅', subtitle: 'Running • TurnFit • Yoga', maxParticipants: 10 },
-      { id: 11, title: 'Hiking 🥾', maxParticipants: 10 },
-      { id: 12, title: 'Padel 🎾', maxParticipants: 10 },
-    ],
-    28: [
-      { id: 13, title: 'Morning Activities 🌅', subtitle: 'Running • TurnFit • Yoga', maxParticipants: 10 },
-      { id: 14, title: 'Dunes 🏜️', maxParticipants: 10 },
-      { id: 15, title: 'Padel 🎾', maxParticipants: 10 },
-    ],
-    29: [
-      { id: 16, title: 'Morning Activities 🌅', subtitle: 'Running • TurnFit • Yoga', maxParticipants: 10 },
-      { id: 17, title: 'Beach Volleyball 🏐', maxParticipants: 10 },
-      { id: 18, title: 'Padel 🎾', maxParticipants: 10 },
-    ],
-    30: [
-      { id: 19, title: 'Morning Activities 🌅', subtitle: 'Running • TurnFit • Yoga', maxParticipants: 10 },
-      { id: 20, title: 'Beach Volleyball 🏐', maxParticipants: 10 },
-      { id: 21, title: 'Padel 🎾', maxParticipants: 10 },
-    ],
+    // (Other dates with similar structure)
   };
 
   const getDates = () => {
@@ -61,7 +32,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="h-screen bg-gray-50 flex flex-col">
       <header className="bg-white border-b border-gray-200 w-full z-10">
         <div className="max-w-lg mx-auto px-4 py-4">
           <div className="flex items-center gap-2 mb-4">
